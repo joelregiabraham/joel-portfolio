@@ -215,14 +215,14 @@ const Portfolio = () => {
           }}>
             JA
           </div>
-          
+
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <div style={{ display: 'flex', gap: '0.25rem' }}>
               {sections.map(section => (
                 <NavLink key={section} section={section} />
               ))}
             </div>
-            
+
             <button
               onClick={() => setDarkMode(!darkMode)}
               style={{
@@ -270,7 +270,7 @@ const Portfolio = () => {
           opacity: 0.15,
           animation: 'float 6s ease-in-out infinite',
         }} />
-        
+
         <div style={{
           maxWidth: '900px',
           textAlign: 'center',
@@ -287,7 +287,7 @@ const Portfolio = () => {
           }}>
             Computer Science Student
           </p>
-          
+
           <h1 className="animate-in delay-1" style={{
             fontFamily: "'Playfair Display', serif",
             fontSize: 'clamp(3rem, 8vw, 5rem)',
@@ -306,7 +306,7 @@ const Portfolio = () => {
               Abraham
             </span>
           </h1>
-          
+
           <p className="animate-in delay-2" style={{
             fontSize: '1.25rem',
             color: t.textSecondary,
@@ -314,10 +314,10 @@ const Portfolio = () => {
             margin: '0 auto 2.5rem',
             lineHeight: 1.7,
           }}>
-            Building enterprise solutions & modern web experiences. 
+            Building enterprise solutions & modern web experiences.
             Passionate about turning complex problems into elegant, user-friendly applications.
           </p>
-          
+
           <div className="animate-in delay-3" style={{
             display: 'flex',
             gap: '1rem',
@@ -351,7 +351,7 @@ const Portfolio = () => {
               View Projects
             </a>
           </div>
-          
+
           <div className="animate-in delay-4" style={{
             display: 'flex',
             gap: '1.5rem',
@@ -404,7 +404,7 @@ const Portfolio = () => {
             margin: '0 auto 3rem',
             borderRadius: '2px',
           }} />
-          
+
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
@@ -430,7 +430,7 @@ const Portfolio = () => {
                 <p style={{ color: t.textSecondary }}>Waterloo, Ontario</p>
               </div>
             </div>
-            
+
             <div>
               <p style={{
                 fontSize: '1.1rem',
@@ -438,7 +438,7 @@ const Portfolio = () => {
                 color: t.textSecondary,
                 marginBottom: '1.5rem',
               }}>
-                I'm a <strong style={{ color: t.text }}>4th-year Computer Science Honours student</strong> at 
+                I'm a <strong style={{ color: t.text }}>4th-year Computer Science Honours student</strong> at
                 Conestoga College with a passion for building impactful software solutions.
               </p>
               <p style={{
@@ -447,8 +447,8 @@ const Portfolio = () => {
                 color: t.textSecondary,
                 marginBottom: '1.5rem',
               }}>
-                Currently working as an IT Support Technician at <strong style={{ color: t.text }}>Erb Group of Companies</strong>, 
-                where I've led enterprise-wide migrations, developed HR automation solutions, and am building 
+                Currently working as an IT Support Technician at <strong style={{ color: t.text }}>Erb Group of Companies</strong>,
+                where I've led enterprise-wide migrations, developed HR automation solutions, and am building
                 custom Android applications for warehouse operations.
               </p>
               <p style={{
@@ -456,10 +456,10 @@ const Portfolio = () => {
                 lineHeight: 1.8,
                 color: t.textSecondary,
               }}>
-                I thrive on taking complex challenges and transforming them into elegant, 
+                I thrive on taking complex challenges and transforming them into elegant,
                 user-friendly solutions that make a real difference.
               </p>
-              
+
               <div style={{
                 display: 'grid',
                 gridTemplateColumns: 'repeat(3, 1fr)',
@@ -510,7 +510,7 @@ const Portfolio = () => {
             margin: '0 auto 3rem',
             borderRadius: '2px',
           }} />
-          
+
           <div style={{ position: 'relative' }}>
             {/* Timeline line */}
             <div style={{
@@ -521,7 +521,7 @@ const Portfolio = () => {
               width: '2px',
               background: t.border,
             }} />
-            
+
             {experience.map((job, index) => (
               <div key={index} style={{
                 position: 'relative',
@@ -539,7 +539,7 @@ const Portfolio = () => {
                   background: t.gradient,
                   border: `3px solid ${t.bg}`,
                 }} />
-                
+
                 <div style={{
                   background: t.bgSecondary,
                   borderRadius: '16px',
@@ -564,7 +564,7 @@ const Portfolio = () => {
                       <p style={{ color: t.textSecondary, fontSize: '0.85rem' }}>{job.location}</p>
                     </div>
                   </div>
-                  
+
                   <ul style={{
                     listStyle: 'none',
                     padding: 0,
@@ -614,7 +614,7 @@ const Portfolio = () => {
             margin: '0 auto 3rem',
             borderRadius: '2px',
           }} />
-          
+
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
@@ -638,7 +638,7 @@ const Portfolio = () => {
                 }}>
                   {index === 0 ? '✈️' : index === 1 ? '📦' : '⚙️'}
                 </div>
-                
+
                 <div style={{ padding: '1.5rem' }}>
                   <div style={{
                     display: 'flex',
@@ -652,7 +652,7 @@ const Portfolio = () => {
                       color: t.textSecondary,
                     }}>{project.period}</span>
                   </div>
-                  
+
                   <p style={{
                     color: t.textSecondary,
                     fontSize: '0.95rem',
@@ -661,7 +661,7 @@ const Portfolio = () => {
                   }}>
                     {project.description}
                   </p>
-                  
+
                   <div style={{
                     display: 'flex',
                     flexWrap: 'wrap',
@@ -708,7 +708,7 @@ const Portfolio = () => {
             margin: '0 auto 3rem',
             borderRadius: '2px',
           }} />
-          
+
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
@@ -773,17 +773,17 @@ const Portfolio = () => {
             margin: '0 auto 2rem',
             borderRadius: '2px',
           }} />
-          
+
           <p style={{
             color: t.textSecondary,
             fontSize: '1.1rem',
             marginBottom: '3rem',
             lineHeight: 1.7,
           }}>
-            I'm always open to discussing new opportunities, interesting projects, 
+            I'm always open to discussing new opportunities, interesting projects,
             or just having a chat about technology.
           </p>
-          
+
           <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -791,9 +791,9 @@ const Portfolio = () => {
             flexWrap: 'wrap',
           }}>
             {[
-              { icon: '📧', label: 'Email', value: 'itzmejoels@gmail.com', href: 'mailto:itzmejoels@gmail.com' },
-              { icon: '📱', label: 'Phone', value: '579-985-8555', href: 'tel:579-985-8555' },
-              { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/joel', href: 'https://linkedin.com/in/joel' },
+              { icon: '📧', label: 'Email', value: 'itzmejoels@gmail.com', href: 'mailto:jregiabraham@gmail.com' },
+              // { icon: '📱', label: 'Phone', value: '579-985-8555', href: 'tel:579-985-8555' },
+              { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/joel', href: 'https://www.linkedin.com/in/joel-regi-abraham-739b68279/' },
             ].map((contact, i) => (
               <a key={i} href={contact.href} style={{
                 background: t.bg,
