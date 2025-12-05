@@ -359,9 +359,9 @@ const Portfolio = () => {
             marginTop: '3rem',
           }}>
             {[
-              { icon: '📧', href: 'mailto:itzmejoels@gmail.com' },
-              { icon: '💼', href: 'https://linkedin.com/in/joel' },
-              { icon: '💻', href: 'https://github.com/joel' },
+              { icon: '📧', href: 'mailto:jregiabraham@gmail.com' },
+              { icon: '💼', href: 'https://www.linkedin.com/in/joel-regi-abraham-739b68279/' },
+              { icon: '💻', href: 'https://github.com/jregiabraham' },
             ].map((social, i) => (
               <a key={i} href={social.href} style={{
                 width: '50px',
