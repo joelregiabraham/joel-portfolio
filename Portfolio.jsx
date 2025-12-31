@@ -360,7 +360,7 @@ const Portfolio = () => {
           }}>
             {[
               { icon: '📧', href: 'mailto:jregiabraham@gmail.com' },
-              { icon: '💼', href: 'https://www.linkedin.com/in/joel-regi-abraham-739b68279/' },
+              { icon: '💼', href: 'https://www.linkedin.com/in/joel-r-abraham-739b68279/' },
               { icon: '💻', href: 'https://github.com/jregiabraham' },
             ].map((social, i) => (
               <a key={i} href={social.href} style={{
@@ -791,9 +791,9 @@ const Portfolio = () => {
             flexWrap: 'wrap',
           }}>
             {[
-              { icon: '📧', label: 'Email', value: 'itzmejoels@gmail.com', href: 'mailto:jregiabraham@gmail.com' },
+              { icon: '📧', label: 'Email', value: 'jregiabraham@gmail.com', href: 'mailto:jregiabraham@gmail.com' },
               // { icon: '📱', label: 'Phone', value: '579-985-8555', href: 'tel:579-985-8555' },
-              { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/joel', href: 'https://www.linkedin.com/in/joel-regi-abraham-739b68279/' },
+              { icon: '💼', label: 'LinkedIn', value: 'linkedin.com/in/joel', href: 'https://www.linkedin.com/in/joel-r-abraham-739b68279/' },
             ].map((contact, i) => (
               <a key={i} href={contact.href} style={{
                 background: t.bg,
